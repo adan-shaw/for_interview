@@ -22,19 +22,19 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: encode
+all: encode2
 
 # Tool invocations
-encode: $(OBJS) $(USER_OBJS)
+encode2: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc  -o "encode" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc  -o "encode2" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) encode
+	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) encode2
 	-@echo ' '
 
 .PHONY: all clean dependents
