@@ -56,7 +56,8 @@ int check_sort(int* array, int count){
 
 //测试主函数--由于排序算法不是独立的个体, 所以需要依赖一个文件进行统测
 int main(void){
-  //double_bubble_sort_test();//双向冒泡测试入口
+  double_bubble_sort_test();//双向冒泡测试入口
+  printf("******************************\n\n\n");
   quick_sort_test();//快速排序测试入口
   return 0;
 }

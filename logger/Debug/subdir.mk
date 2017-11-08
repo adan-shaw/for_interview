@@ -5,15 +5,12 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../logger.c \
-../xauto_cross_data.c 
 
 OBJS += \
 ./logger.o \
-./xauto_cross_data.o 
 
 C_DEPS += \
 ./logger.d \
-./xauto_cross_data.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

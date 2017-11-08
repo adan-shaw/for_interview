@@ -196,16 +196,16 @@ void test_logger(void){
   //变量赋值到容器里面, 打日志的变量
   for(;tmp < n;tmp++){
 	switch(tmp){
-	case 0: sprintf(test.xbuf0,"fuck you"); break;
-	case 1: sprintf(test.xbuf1,"fuck you"); break;
-	case 2: sprintf(test.xbuf2,"fuck you"); break;
-	case 3: sprintf(test.xbuf3,"fuck you"); break;
-	case 4: sprintf(test.xbuf4,"fuck you"); break;
-	case 5: sprintf(test.xbuf5,"fuck you"); break;
-	case 6: sprintf(test.xbuf6,"fuck you"); break;
-	case 7: sprintf(test.xbuf7,"fuck you"); break;
-	case 8: sprintf(test.xbuf8,"fuck you"); break;
-	case 9: sprintf(test.xbuf9,"fuck you"); break;
+	case 0: sprintf(test.xbuf0,"love you"); break;
+	case 1: sprintf(test.xbuf1,"love you"); break;
+	case 2: sprintf(test.xbuf2,"love you"); break;
+	case 3: sprintf(test.xbuf3,"love you"); break;
+	case 4: sprintf(test.xbuf4,"love you"); break;
+	case 5: sprintf(test.xbuf5,"love you"); break;
+	case 6: sprintf(test.xbuf6,"love you"); break;
+	case 7: sprintf(test.xbuf7,"love you"); break;
+	case 8: sprintf(test.xbuf8,"love you"); break;
+	case 9: sprintf(test.xbuf9,"love you"); break;
 	}
   }
 

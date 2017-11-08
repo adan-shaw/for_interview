@@ -24,3 +24,6 @@ int main(void);
 
 //双向冒泡测试
 void double_bubble_sort_test(void);
+
+//快速排序测试
+void quick_sort_test(void);

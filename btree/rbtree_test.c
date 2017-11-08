@@ -149,7 +149,7 @@ int rbtree_test_int_void(void){
     data->key = i*3 + 1;
     data->val = malloc(16);
     memset(data->val,'\0',16);
-    memcpy(data->val,"fuck you",8);
+    memcpy(data->val,"love you",8);
 
     int ret = rbt_insert(&root, data);//插入节点
     if (ret < 0){

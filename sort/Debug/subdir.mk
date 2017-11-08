@@ -6,21 +6,18 @@
 C_SRCS += \
 ../auto_test_sort.c \
 ../double_bubble_sort.c \
-../make_perfect_tree.c \
 ../quick_sort.c \
 ../random_int.c 
 
 OBJS += \
 ./auto_test_sort.o \
 ./double_bubble_sort.o \
-./make_perfect_tree.o \
 ./quick_sort.o \
 ./random_int.o 
 
 C_DEPS += \
 ./auto_test_sort.d \
 ./double_bubble_sort.d \
-./make_perfect_tree.d \
 ./quick_sort.d \
 ./random_int.d 
 

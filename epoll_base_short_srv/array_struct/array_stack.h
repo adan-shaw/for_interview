@@ -51,3 +51,4 @@ int as_cur_size(struct as_info* pas);
 int as_pushN(struct as_info* pas,int N);
 
 
+
