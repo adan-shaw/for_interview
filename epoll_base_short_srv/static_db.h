@@ -9,8 +9,8 @@
 //redis 模块
 //********************************************************************
 //redis 头文件
-#include "hiredis-master/hiredis.h"
-#include "hiredis-master/net.h"
+//#include "hiredis-master/hiredis.h"
+//#include "hiredis-master/net.h"
 
 //redis 服务器信息
 #define srv_ip_redis "127.0.0.1"
